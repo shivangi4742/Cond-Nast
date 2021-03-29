@@ -10,7 +10,7 @@
     padding-left: 10px;
 }
 
-.new-desc{
+.new-desc {
     font-size: 12pt;
     line-height: 16pt;
     font-family: fangsong;
@@ -75,5 +75,18 @@
 .title {
     font-weight: bold;
 }
+.menu-button {
+    align-items: center;
+    display: inline-flex;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    text-align: left;
+    color: white;
+}
 
+.mat-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)!important;
+    transition: 0.3s;
+}
 

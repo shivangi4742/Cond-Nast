@@ -1,6 +1,6 @@
 <!--News Headlines header has a burger-style side-nav open button and a settings menu using a material icon-->
 <mat-toolbar color="primary">
-  <button mat-button (click)="sidenav.open ()" ><mat-icon>menu</mat-icon></button>
+  <button mat-button (click)="sidenav.open ()" class="menu-button"><mat-icon>menu</mat-icon></button>
   <span class="heading-news">News Headlines</span>
   <span class="example-spacer"></span>
 </mat-toolbar>
@@ -39,8 +39,8 @@
     <mat-card-actions class="action-buttons">
       <button mat-button class="likes-btn"><mat-icon>thumb_up_alt</mat-icon> 12 Likes</button>
       <button mat-button class="likes-btn"><mat-icon>comment</mat-icon> Comments</button>
-      <button mat-button class="likes-btn" ><mat-icon>share</mat-icon> Share</button>
-      <a href={{article.url}} target="_blank" class="more-btn" ><mat-icon>visibility</mat-icon> More</a>
+      <button mat-button class="likes-btn"><mat-icon>share</mat-icon> Share</button>
+      <a href={{article.url}} target="_blank" class="more-btn" ><mat-icon>visibility</mat-icon>&nbsp; More</a>
     </mat-card-actions>
   </mat-card>
 
