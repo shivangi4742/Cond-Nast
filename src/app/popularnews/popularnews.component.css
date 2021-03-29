@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+
+.more-btn {   
+    display: inline-flex;
+    margin-left: 11px;
+    text-decoration: none;
+}
+
+.heading-news {
+    padding-left: 10px;
+}
+
+.new-desc{
+    font-size: 12pt;
+    line-height: 16pt;
+    font-family: fangsong;
+}
+.example-spacer {
+    flex: 1 1 auto;
+}
+  
+.img-article{
+    max-height: 350px;
+}
+
+.action-buttons{
+    text-align: center;
+}
+
+.example-container {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(111, 111, 111, 0.50);
+}
+
+.example-sidenav-content {
+    display: flex;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+}
+
+.example-sidenav {
+    padding: 20px;
+}
+
+.source-name {
+    margin-left:5px;
+}
+
+.list-item:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: blue;
+}
+
+
+.likes-btn {
+    align-items: center;
+    display: inline-flex;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    text-align: left;
+}
+
+.example-card{
+    margin-top: 4px;
+}
+
+.example-header-image {
+    background-size: cover;
+}
+
+.title {
+    font-weight: bold;
+}
+
+
