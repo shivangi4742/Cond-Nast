@@ -1,4 +1,3 @@
-<!--News Headlines header has a burger-style side-nav open button and a settings menu using a material icon-->
 <mat-toolbar color="primary">
   <button mat-button (click)="sidenav.open ()" class="menu-button"><mat-icon>menu</mat-icon></button>
   <span class="heading-news">News Headlines</span>
@@ -10,20 +9,20 @@
     <mat-list class="list-nav">
         <mat-list-item
           class="list-item"
-          *ngFor="let source of mSources"
+          *ngFor="let source of sourcesList"
           (click)="searchArticles(source.id);sidenav.close();">
-          <div
+          <!-- <div
             mat-card-avatar
-            [ngStyle]="{'background-image': 'url(../assets/images/'+ source.id +'.png)'}"
+
             class="example-header-image">
-          </div>
+          </div> -->
           <span class="source-name"> {{source.name}}</span>
         </mat-list-item>
     </mat-list>
   </mat-sidenav>
 
 
-  <mat-card class="example-card"  *ngFor="let article of mArticles">
+  <mat-card class="example-card"  *ngFor="let article of articlesList">
     <!-- {{article.author | json}} -->
     <mat-card-header>      
       <mat-card-title class="title">{{article.title}}</mat-card-title>
@@ -40,7 +39,7 @@
       <button mat-button class="likes-btn"><mat-icon>thumb_up_alt</mat-icon> 12 Likes</button>
       <button mat-button class="likes-btn"><mat-icon>comment</mat-icon> Comments</button>
       <button mat-button class="likes-btn"><mat-icon>share</mat-icon> Share</button>
-      <a href={{article.url}} target="_blank" class="more-btn" ><mat-icon>visibility</mat-icon>&nbsp; More</a>
+      <a href={{article.url}} target="_blank" class="more-btn" ><mat-icon>visibility</mat-icon>&nbsp; Read more..</a>
     </mat-card-actions>
   </mat-card>
 

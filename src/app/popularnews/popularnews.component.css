@@ -10,6 +10,11 @@
     padding-left: 10px;
 }
 
+.list-item{
+    display: block;
+    line-height: 40pt;
+}
+
 .new-desc {
     font-size: 12pt;
     line-height: 16pt;
@@ -52,6 +57,7 @@
     cursor: pointer;
     font-weight: bold;
     color: blue;
+    display: block;
 }
 
 
@@ -64,8 +70,9 @@
     text-align: left;
 }
 
-.example-card{
-    margin-top: 4px;
+.example-card {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .example-header-image {
