@@ -34,4 +34,10 @@
     </mat-card-actions>
   </mat-card>
 
+  <mat-card *ngIf="articlesList && articlesList.length===0">
+    <div class="example-container">
+      No Articles Found!
+    </div>
+  </mat-card>
+
 </mat-sidenav-container>
