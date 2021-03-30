@@ -97,3 +97,6 @@
     transition: 0.3s;
 }
 
+.mat-card-header-text {
+    margin: 0 0px!important;
+}
